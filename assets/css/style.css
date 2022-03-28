@@ -1,0 +1,110 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    /* margin: 0; */
+    box-sizing: border-box;
+    color: white;
+}
+
+header {
+    width: 100%;
+    text-align: right;
+    background-color: black;
+    color: white;
+    border-bottom: 5px solid rgb(158, 135, 132);
+}
+
+.background {
+    background-image: url("https://www.dancemusicnw.com/wp-content/uploads/2015/10/seattle-at-night.jpg");
+    /* color: white; */
+    background-position: center;
+    height: 15vh;
+    background-size: 100%;
+
+}
+
+#subtitle {
+
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    text-align: right;
+    
+    /* top: 20px;
+    right: 20px; */
+}
+
+#name {
+    text-align: left;
+    padding-top: 1%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+    /* margin-left: 25px; */
+    padding: 0 20px;
+}
+
+/* main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: salmon;
+} */
+
+.workdetails {
+    border: 3px solid black;
+}
+
+main {
+    /* background-image: url("https://www.dancemusicnw.com/wp-content/uploads/2015/10/seattle-at-night.jpg"); */
+    background-position: center;
+    background-size: auto;
+    /* background-repeat: no-repeat; */
+    height: 100%;
+    margin 0;
+    flex-direction: column;
+    background-color: black;
+}
+
+/* footer {
+    background-color: black;
+    color: white;
+} */
+
+
+/* 
+
+@media screen and (max-width:992px) {
+     {
+
+    }    
+}
+
+@media screen and (max-width:768px) {
+    .work {
+        width: 100%
+    }    
+} */
+
+
+/* position: relative;
+     can adjust top right left bottom (pushing from left)
+
+position: static;
+    leaves room for the element
+
+position: absolute;
+    takes the element out of the flow. so replaces the gap for the position
+    in relation to the nearest position in their ancestor
+
+position: fixed;
+    fixed to the viewable screen
+
+
+     */
+
+
