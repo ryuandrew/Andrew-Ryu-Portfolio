@@ -11,18 +11,21 @@
 
 <body>
     <header>
-        <h1 id="name">Andrew Ryu</h1>
-        <a href="https://www.facebook.com/andrew.d.ryu/">
-            <img src="./assets/images/Screen Shot 2022-03-29 at 4.17.43 PM.png" width="85px" height="90px" alt="pic">
-        </a>
-        <nav>
-            <ul>
-                <li><a href="#aboutme">About Me</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#contact">Contact Me</a></li>
-                <li><a href="https://www.linkedin.com/in/ryuandrew/">Resume</a></li>
-            </ul>
-        </nav>
+        <div>
+            <h1 id="name">Andrew Ryu</h1>
+            <a href="https://www.facebook.com/andrew.d.ryu/">
+                <img src="./assets/images/Screen Shot 2022-03-29 at 4.17.43 PM.png" width="85px" height="90px" alt="pic" id="profilePic">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#aboutme">About Me</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <li><a href="https://drive.google.com/file/d/1dEK6AiZFwqZ30e6bnqVztHfTovs_Sc61/view?usp=sharing">Resume</a></li>
+                    <li><a href="https://github.com/ryuandrew">GitHub</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     
     <div class="background">
@@ -34,7 +37,7 @@
             <h1 class="heading">About Me</h1>
                 <div class ="content"> <!---->
                     <p>
-                    Lorem Ipsum, sometimes referred to as 'lipsum', is the placeholder text used in design when creating content.
+                        Andrew Ryu is an actuarial analyst who is well-rounded and experienced in complex analyses and problem solving in high pressure work environments. He is an effective communicator and has a solid background in mathematics and statistics. He is excited to apply the quantitative skills he learned and continue to learn new programming languages to do more critical thinking and problem solving as a software developer. Outside of work, he enjoys singing and playing sports, such as boxing, HIIT workout, and skiing.
                     </p>
                 </div>
         </section>
@@ -44,33 +47,33 @@
             <section class="workbody content"> <!---->
 
                 <section class="project" id="showcase">
-                    <h3>Main Project</h3>
-                    <a href="https://www.youtube.com/watch?v=7QOAKHzzhmo">
-                        <img src="https://miro.medium.com/max/1400/0*YawwWWRvQDU4ls2w.jpg" alt="github">
+                    <h3>Meme Generator Project</h3>
+                    <a href="https://ryuandrew.github.io/Project-1-Meme-Generator/">
+                        <img src="./assets/images/Meme-Generator.png" alt="memeGenerator">
                     </a>
-                    <p>Project #1</p>
+                    <p>Built a meme generating web application for avid meme fans to create a personalized meme. The web app is built using Tailwind as a CSS framework along with HTML and JavaScript (jQuery). Imgflip API is used to source the meme content and icanhazdadjoke API is used to generate a random joke on refresh.</p>
                 </section>
 
                 <section class="project">
-                    <h3>JavaScript</h3>
-                    <a href="https://www.youtube.com/watch?v=yt28-0nO3gQ">
-                        <img src="https://i.etsystatic.com/27044524/r/il/328586/3148040789/il_794xN.3148040789_loz0.jpg" alt="sheep">
+                    <h3>Random PW Generator</h3>
+                    <a href="https://ryuandrew.github.io/pwGenerator">
+                        <img src="./assets/images/pwGenerator.png" alt="pwGenerator" class="work">
                     </a>
-                    <p>Project #2</p>
+                    <p>Developed a random password generator website that helps the users to create a strong password based on the criteria they have selected. The website is built using HTML, CSS, and JavaScript.</p>
                 </section>
 
                 <section class="project">
-                    <h3>SQL</h3>
-                    <a href="https://www.youtube.com/watch?v=D6T719zyjgE">
-                        <img src="https://i.etsystatic.com/27044524/r/il/bdd939/3100321486/il_794xN.3100321486_beyq.jpg" alt="chicken">
+                    <h3>Harry Potter Trivia Game</h3>
+                    <a href="https://ryuandrew.github.io/Harry-Potter-Trivia">
+                        <img src="./assets/images/Harry-Potter-Trivia.png" alt="triviaGame" class="work">
                     </a>
-                    <p>Project #3</p>
+                    <p>Built a fun trivia game for Harry Potter fans. The game is timed and has a penalty for every incorrect answer. The web app uses a local storage to store high scores.</p>
                 </section>
 
                 <section class="project">
                     <h3>Python</h3>
                     <a href="https://www.youtube.com/watch?v=J7KUnoc-daY">
-                        <img src="https://i.etsystatic.com/27044524/r/il/280d5c/3100321596/il_794xN.3100321596_jbor.jpg" alt="goat">
+                        <img src="https://i.etsystatic.com/27044524/r/il/280d5c/3100321596/il_794xN.3100321596_jbor.jpg" alt="goat" class="work">
                     </a>
                     <p>Project #4</p>
                 </section>
@@ -78,7 +81,7 @@
                 <section class="project">
                     <h3>C#</h3>
                     <a href="https://www.youtube.com/watch?v=ArVKQiTlnKU">
-                        <img src="https://i.etsystatic.com/27044524/r/il/9a61da/3100321722/il_794xN.3100321722_eijx.jpg" alt="horse">
+                        <img src="https://i.etsystatic.com/27044524/r/il/9a61da/3100321722/il_794xN.3100321722_eijx.jpg" alt="horse" class="work">
                     </a>
                     <p>Project #5</p>
                 </section>            
@@ -89,11 +92,11 @@
         <h1 class="heading">Contact Me</h1>
         <nav class="content"><!---->
             <ul>
-                <li><a href="tel:123-456-7890">Call Me</a></li>
-                <li><a href="mailto:me@me.com">Email Me</a></li>
-                <li><a href="https://github.com/ryuandrew/Andrew-Ryu-Portfolio">GitHub</a></li>
-                <li><a href="https://twitter.com/elonmusk">Twitter</a></li>
-                <li><a href="https://www.instagram.com/chihuahuasquare/">Instagram</a></li>
+                <li><a href="tel:206-612-8176">Call Me</a></li>
+                <li><a href="mailto:andrewryu@outlook.com">Email Me</a></li>
+                <li><a href="https://github.com/ryuandrew">GitHub</a></li>
+                <li><a href="https://www.facebook.com/andrew.d.ryu/">Facebook</a></li>
+                <li><a href="https://www.instagram.com/ryuandrew/">Instagram</a></li>
             </ul>
         </nav>
         </section>

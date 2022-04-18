@@ -18,10 +18,21 @@ header {
     border-bottom: 5px solid rgb(158, 135, 132);
 }
 
-#name img {
-    position:relative;
+/* #name img{
+    position: relative;
     top: 16px;
     right: 800px;
+} */
+
+#name {
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+#profilePic {
+    position: absolute;
+    right: 1px;
+    top: 1px;
 }
 
 nav ul {
@@ -110,8 +121,17 @@ main {
     width: 100%;
 }
 
+h3 {
+    padding:10px;
+}
+
+main p {
+    padding:10px;
+}
+
 #showcase img {
-    width: 500px;
+    width: 700px;
+    height: fit-content;
     border: 5px solid rgb(158, 135, 132);
     border-radius: 15px;
     max-width: 100%;
@@ -128,6 +148,7 @@ main {
 
 .project img {
     width: 200px;
+    height: 200px;
     border: 5px solid rgb(158, 135, 132);
     border-radius: 15px;
 }
