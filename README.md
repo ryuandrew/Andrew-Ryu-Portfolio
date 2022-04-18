@@ -1,4 +1,4 @@
-# Andrew-Ryu-Portfolio
+# Andrew-Ryu-Updated-Portfolio
 
 ## Task
 
@@ -28,9 +28,28 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport  ✅
 ```
 
-I have built a website where all the above criterias are met. Thanks!
+## Updated Portfolio
 
-Web Address:
+```
+✅ Contact information
+✅ Links to GitHub profile and LinkedIn profile
+✅ Link to a downloadable PDF of my resume
+✅ Display at least 2 examples of student work
+✅ Update GitHub Profile
+✅ Profile pic
+✅ Biography
+✅ Email address
+✅ Link to my deployed portfolio
+✅ At least 2 pinned repo
+✅ Follow a few classmates
+✅ Include README files
+✅ Commit history
+✅ Update Resume
+✅ Update LinkedIn
+```
+
+
+Deoployed Web Address:
 https://ryuandrew.github.io/Andrew-Ryu-Portfolio/
 
 Github:

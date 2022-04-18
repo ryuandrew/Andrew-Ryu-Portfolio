@@ -87,7 +87,8 @@ main {
 }
 
 .content { 
-    width: 80%
+    width: 80%;
+    text-align:justify;
 }
 
 
