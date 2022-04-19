@@ -49,7 +49,7 @@ THEN I am presented with a responsive layout that adapts to my viewport  ✅
 ```
 
 
-Deoployed Web Address:
+Deployed Web Address:
 https://ryuandrew.github.io/Andrew-Ryu-Portfolio/
 
 Github:
