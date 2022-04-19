@@ -1,8 +1,8 @@
-# Andrew-Ryu-Updated-Portfolio
+# Andrew-Ryu-Portfolio
 
 ## Task
 
-In this homework I've applied the core skills I learned: flexbox, media queries, and CSS variables. 
+I've applied the core skills I learned: flexbox, media queries, and CSS variables to create my portfolio. 
 
 ## Acceptance Criteria
 

@@ -18,6 +18,11 @@ header {
     border-bottom: 5px solid rgb(158, 135, 132);
 }
 
+a:hover {
+    font-size: 150%;
+    color:rgb(158, 135, 132);
+}
+
 /* #name img{
     position: relative;
     top: 16px;
@@ -107,8 +112,6 @@ main {
     align-items: center;
     font-size: 20px;
     padding: 10px 20px;
-    border: 5px;
-    border-color: white;
     justify-content: space-around;
 }
 
@@ -140,7 +143,7 @@ main p {
 
 .project {
     padding: 10px 20px;
-    border: 5px solid white;
+    border: 3px solid white;
     border-radius: 15px;
     align-items: stretch;
     width: 50%;
